@@ -47,7 +47,7 @@ class DriverContext:
         debug_port = request['debug_port']
         chrome_options.debugger_address = f'{address}:{debug_port}'
 
-        self.driver: webdriver = webdriver.Chrome(service=ser, options=chrome_options, executable_path=chrome_driver_path)
+        self.driver: webdriver = webdriver.Chrome(service=ser, options=chrome_options)
         self.driver.maximize_window()
 
     def __enter__(self) -> webdriver:
