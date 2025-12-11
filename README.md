@@ -5,13 +5,13 @@ How to create Undetectable profiles with API, set proxies in profiles and connec
 With that code you can create profiles in Undetectable browser and use them with Selenium.
 With special argument you can set proxies to these profiles.
 
-You can download and try Undetectable browser for free from: https://undetectable.io 
+You can download and try Undetectable browser for free from: [Undetectable Browser](https://go.undetectable.io/gh)
 
 We recommend to use our webdriver that you can download from link: 
 https://undetectable.io/download/chromedriver.exe
 You need to save this file in folder with other files from that repository
 
-This script will create chosen amount of Undetectable profiles one by one, set proxies in profile (optional) and open https://undetectable.io in each profile. 
+This script will create chosen amount of Undetectable profiles one by one, set proxies in profile (optional) and open [https://undetectable.io](https://go.undetectable.io/gh) in each profile. 
 You need to install and run Undetectable browser with any paid plan that can create unlimited local profiles
 
 <h1>How to use:</h1>
